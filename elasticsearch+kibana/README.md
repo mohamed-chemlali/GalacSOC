@@ -7,7 +7,6 @@ docker pull docker.elastic.co/elasticsearch/elasticsearch:7.8.0
 ### Install kibana image
 ```
 docker pull docker.elastic.co/kibana/kibana:7.8.0
-
 ```
 ## How to use:
 ### Using Docker compose file
@@ -25,7 +24,6 @@ sysctl -w vm.max_map_count=262144
 ```
 docker run -d -p 9200:9200 -p 9300:9300 -e "discovery.type=single-node" docker.elastic.co/elasticsearch/elasticsearch:7.8.0
 sysctl -w vm.max_map_count=262144
-
 ```
 2. Config kibana
 
