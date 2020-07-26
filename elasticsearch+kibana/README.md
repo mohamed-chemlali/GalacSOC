@@ -11,12 +11,12 @@ docker pull docker.elastic.co/kibana/kibana:7.8.0
 ```
 ## How to use:
 ### Using Docker compose file
-
-1. Run the docker compose file 
+1. Download docker-compose.yml file
+2. Run the docker-compose command 
 ```
 docker-compose up
 ```
-2. Set vm.max_map_count to at least 262144
+3. Set vm.max_map_count to at least 262144
 ```
 sysctl -w vm.max_map_count=262144
 ```
