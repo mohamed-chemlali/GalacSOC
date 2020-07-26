@@ -4,7 +4,7 @@
 ```
 docker pull docker.elastic.co/elasticsearch/elasticsearch:7.8.0
 ```
-###Install kibana image
+### Install kibana image
 ```
 docker pull docker.elastic.co/kibana/kibana:7.8.0
 
